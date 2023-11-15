@@ -15,6 +15,7 @@ Feature: Scenario Template:
     Then sayfa basliginin cucumber kelimesi icerdigini test eder
     And sayfayi kapatir
 
+
           # Given
   # verilen
   # given ile yazilan steplerde biz testimizle alakali olan ama test olarak yazmadigimiz bir takim kabullerden bahsederiz
