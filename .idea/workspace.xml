@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d970c2a8-aab4-4b7a-a7aa-046cd979247a" name="Changes" comment="CucumberLessonsProject first commit message">
+    <list default="true" id="d970c2a8-aab4-4b7a-a7aa-046cd979247a" name="Changes" comment="CucumberLessonsProject 15.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/BackgroundSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/02_background.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/03_parameter.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/FirstRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/FirstRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/01_FirstFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/01_FirstFeature.feature" afterDir="false" />
@@ -81,11 +84,26 @@
       <option name="project" value="LOCAL" />
       <updated>1700059397535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CucumberLessonsProject first commit message">
+      <created>1700072626461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700072626462</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CucumberLessonsProject 15.11.2023">
+      <created>1700072670845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700072670845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CucumberLessonsProject first commit message" />
-    <option name="LAST_COMMIT_MESSAGE" value="CucumberLessonsProject first commit message" />
+    <MESSAGE value="CucumberLessonsProject 15.11.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="CucumberLessonsProject 15.11.2023" />
   </component>
 </project>

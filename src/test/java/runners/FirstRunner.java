@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = "stepdefinitions",
-    tags = "@firstFeature and not @cucumber",
+   // tags = "@firstFeature and not @cucumber",
+    tags = "@background",
     dryRun = false
 )
 public class FirstRunner {

@@ -35,3 +35,4 @@ Feature: Scenario Template:
   #then ile yazilan steplere bir validation yani assertion yapildigini anlayabiliriz
   #
   #Then kullanici login hata mesajini gormelidir
+
