@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = "stepdefinitions",
-    tags = "@amazonSearch",
+    tags = "@sOutline",
     dryRun = false
 )
 public class AmazonRunner {

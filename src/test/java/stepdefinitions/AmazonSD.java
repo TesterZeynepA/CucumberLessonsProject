@@ -24,5 +24,10 @@ public class AmazonSD {
     public void kullanici_title_da_gormelidir(String string) {
         ap.validateResultText(string);
     }
+    @Given("kullanici arama sonuclarinin {string} icerdigini test eder")
+    public void kullanici_arama_sonuclarinin_icerdigini_test_eder(String string) {
+       ap.validateResultText(string);
+    }
+
 
 }
