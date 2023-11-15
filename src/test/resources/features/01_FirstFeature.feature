@@ -1,11 +1,14 @@
+@firstFeature
 Feature: Scenario Template:
 
+  @samsung
   Scenario: TC01_samsungSearch
     Given kullanici google sayfasina gider
     When kullanici samsung icin arama yapar
     Then sayfa basliginin samsung kelimesi icerdigini test eder
     And sayfayi kapatir
 
+    @cucumber
   Scenario: TC02_cucumberSearch
     Given kullanici google sayfasina gider
     When kullanici cucumber icin arama yapar
