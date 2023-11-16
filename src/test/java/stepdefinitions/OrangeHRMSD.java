@@ -53,6 +53,25 @@ public class OrangeHRMSD {
             System.out.println(each);
         }
     }
+    @When("kullanici invalid credentiallari girer")
+    public void kullaniciInvalidCredentiallariGirer(io.cucumber.datatable.DataTable dataTable)  {
+
+        List<Map<String,String>> adminCredentials=dataTable.asMaps();
+
+        for (Map<String,String> each : adminCredentials) {
+
+            Driver.getDriver().findElement(orange.usernameWE).sendKeys(each.get("username"));
+            Driver.getDriver().findElement(orange.passwordWE).sendKeys(each.get("password"));
+            Driver.getDriver().findElement(orange.loginButton).click();
+            System.out.println(each);
+
+            String errorMessage = each.get("error_message");
+            String actualData = Driver.getDriver().findElement(orange.errorMessagge).getText();
+
+            Assert.assertEquals(errorMessage,actualData);
+        }
+    }
+
 
 
 }

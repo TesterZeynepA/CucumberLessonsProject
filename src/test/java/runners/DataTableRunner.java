@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = "stepdefinitions",
-    tags = "@validCredentials",
+    tags = "@invalidCredentials",
     dryRun = false
 )
 public class DataTableRunner {
