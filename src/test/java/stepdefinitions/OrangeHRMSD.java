@@ -9,6 +9,7 @@ import utilities.Driver;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class OrangeHRMSD {
     OrangePage orange = new OrangePage();
@@ -36,12 +37,21 @@ public class OrangeHRMSD {
 
     @When("kullanici credentiallari girer")
     public void kullanici_credentiallari_girer(io.cucumber.datatable.DataTable dataTable) {
-       //1. yol
-        List<String> credentials = dataTable.row(0);
+      /* //1. yol
+        List<String> credentials = dataTable.row(1);
         //data table in 1. satirini return eder.
-        Driver.getDriver().findElement(orange.usernameWE).sendKeys(credentials.get(0));
-        Driver.getDriver().findElement(orange.passwordWE).sendKeys(credentials.get(1));
+        Driver.getDriver().findElement(orange.usernameWE).sendKeys(credentials.get(1));
+        Driver.getDriver().findElement(orange.passwordWE).sendKeys(credentials.get(2));
         Driver.getDriver().findElement(orange.loginButton).click();
+*/
+        //2. yol
+        List<Map<String,String>> adminCredentials = dataTable.asMaps();
+        for (Map<String,String> each : adminCredentials) {
+            Driver.getDriver().findElement(orange.usernameWE).sendKeys(each.get("username"));
+            Driver.getDriver().findElement(orange.passwordWE).sendKeys(each.get("password"));
+            Driver.getDriver().findElement(orange.loginButton).click();
+            System.out.println(each);
+        }
     }
 
 

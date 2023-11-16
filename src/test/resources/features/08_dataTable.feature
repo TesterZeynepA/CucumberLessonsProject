@@ -4,4 +4,5 @@ Feature: User login HRM with dataTable
   Scenario:login with valid credentials
     Given kullanici anasayfaya gider
     When kullanici credentiallari girer
+      | username | password |
       | Admin    | admin123 |
