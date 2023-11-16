@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d970c2a8-aab4-4b7a-a7aa-046cd979247a" name="Changes" comment="CucumberLessonsProject 16.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/OrangePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/HooksRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/OrangeHRMSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/07_hooksFailedScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/08_dataTable.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/OrangeHRMSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/OrangeHRMSD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +49,7 @@
       <recent name="runners" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HooksRunner">
-    <configuration name="Feature: 06_scenarioOutline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_scenarioOutline.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberLessonsProject" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: 06_scenarioOutline" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DataTableRunner">
     <configuration name="Feature: 07_hooksFailedScenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_hooksFailedScenario.feature" />
@@ -92,7 +69,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: 08_dataTable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/08_dataTable.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberLessonsProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: 08_dataTable" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTableRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberLessonsProject" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +97,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.AmazonRunner" />
+      <option name="MAIN_CLASS_NAME" value="runners.DataTableRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,18 +136,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: 07_hooksFailedScenario" />
-      <item itemvalue="Cucumber Java.Feature: 06_scenarioOutline" />
+      <item itemvalue="Cucumber Java.Feature: 08_dataTable" />
+      <item itemvalue="JUnit.DataTableRunner" />
       <item itemvalue="JUnit.HooksRunner" />
-      <item itemvalue="JUnit.AmazonRunner" />
       <item itemvalue="JUnit.DortIslemRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataTableRunner" />
+        <item itemvalue="Cucumber Java.Feature: 08_dataTable" />
         <item itemvalue="JUnit.HooksRunner" />
         <item itemvalue="Cucumber Java.Feature: 07_hooksFailedScenario" />
         <item itemvalue="JUnit.DortIslemRunner" />
-        <item itemvalue="Cucumber Java.Feature: 06_scenarioOutline" />
-        <item itemvalue="JUnit.AmazonRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700160629166</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CucumberLessonsProject 16.11.2023">
+      <created>1700162972363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700162972363</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CucumberLessonsProject 16.11.2023">
+      <created>1700163005194</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700163005194</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
