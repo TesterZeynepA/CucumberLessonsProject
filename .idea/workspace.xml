@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d970c2a8-aab4-4b7a-a7aa-046cd979247a" name="Changes" comment="CucumberLessonsProject 16.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/OrangePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/HooksRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/OrangeHRMSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/07_hooksFailedScenario.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/DortIslemRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/DortIslemRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DortIslemSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DortIslemSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,28 +52,7 @@
       <recent name="runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: 03_parameter">
-    <configuration name="Feature: 03_parameter" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="C:\Users\zeyne\IdeaProjects\CucumberLessonsProject\src\test\resources\features" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberLessonsProject" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: 03_parameter" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HooksRunner">
     <configuration name="Feature: 06_scenarioOutline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_scenarioOutline.feature" />
@@ -93,15 +73,14 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Amazonda aranilacak kelimeler" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: 07_hooksFailedScenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/04_scenarioOutline.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_hooksFailedScenario.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberLessonsProject" />
-      <option name="NAME_FILTER" value="^Amazonda aranilacak kelimeler$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Amazonda aranilacak kelimeler$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Amazonda aranilacak kelimeler" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: 07_hooksFailedScenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -144,20 +123,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HooksRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberLessonsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.HooksRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: 03_parameter" />
+      <item itemvalue="Cucumber Java.Feature: 07_hooksFailedScenario" />
       <item itemvalue="Cucumber Java.Feature: 06_scenarioOutline" />
-      <item itemvalue="Cucumber Java.Scenario: Amazonda aranilacak kelimeler" />
+      <item itemvalue="JUnit.HooksRunner" />
       <item itemvalue="JUnit.AmazonRunner" />
       <item itemvalue="JUnit.DortIslemRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HooksRunner" />
+        <item itemvalue="Cucumber Java.Feature: 07_hooksFailedScenario" />
         <item itemvalue="JUnit.DortIslemRunner" />
         <item itemvalue="Cucumber Java.Feature: 06_scenarioOutline" />
         <item itemvalue="JUnit.AmazonRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Amazonda aranilacak kelimeler" />
-        <item itemvalue="Cucumber Java.Feature: 03_parameter" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700157480516</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CucumberLessonsProject 16.11.2023">
+      <created>1700160629166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700160629166</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
