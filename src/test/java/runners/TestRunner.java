@@ -10,12 +10,13 @@ import org.junit.runner.RunWith;
                 "html:target/reports/html_reports/cucumber1.html", //html formatinda rapor almak icin kullanilan plugin
                 "json:target/reports/json-reports/cucumber1.json", //json formatinda rapor almak icin kullanilan plugin
                 "junit:target/reports/xml-reports/cucumber1.xml",  //xml formatinda rapor almak icin kullanilan plugin
-                "rerun:target/reports/failed-reports/failed1.txt" //failed testler için kullanilan plugin
+                "rerun:target/reports/failed-reports/failed1.txt", //failed testler için kullanilan plugin
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"//spark reports almak için eklenen plugin
         },
         monochrome = true,
     features = "src/test/resources/features",
     glue = "stepdefinitions",
-    tags = "@hooks",
+    tags = "@background",
     dryRun = false
 )
 public class TestRunner {

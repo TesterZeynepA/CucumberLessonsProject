@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d970c2a8-aab4-4b7a-a7aa-046cd979247a" name="Changes" comment="CucumberLessonsProject 17.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParallelTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ParallelDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/02_background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/02_background.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/03_parameter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/03_parameter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/FirstRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/FirstRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW_ScenarioOutlineSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW_ScenarioOutlineSD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,33 +53,15 @@
       <recent name="runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: 05_scenarioOutlineHW">
+  <component name="RunManager" selected="JUnit.FirstRunner">
     <configuration name="Feature: 05_scenarioOutlineHW" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_scenarioOutlineHW.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberLessonsProject" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: 05_scenarioOutlineHW" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: 08_dataTable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/08_dataTable.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberLessonsProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: 08_dataTable" />
+      <option name="SUGGESTED_NAME" value="Feature: 05_scenarioOutlineHW" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -124,6 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberLessonsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.FirstRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberLessonsProject" />
       <extension name="coverage">
@@ -141,18 +140,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: 05_scenarioOutlineHW" />
-      <item itemvalue="Cucumber Java.Feature: 08_dataTable" />
       <item itemvalue="Cucumber Java.Scenario: login with invalid credentials" />
+      <item itemvalue="JUnit.FirstRunner" />
       <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="JUnit.DataTableRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: 05_scenarioOutlineHW" />
+        <item itemvalue="JUnit.FirstRunner" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: 05_scenarioOutlineHW" />
         <item itemvalue="JUnit.DataTableRunner" />
         <item itemvalue="Cucumber Java.Scenario: login with invalid credentials" />
-        <item itemvalue="Cucumber Java.Feature: 08_dataTable" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700247838373</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="CucumberLessonsProject 17.11.2023">
+      <created>1700249917036</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700249917037</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

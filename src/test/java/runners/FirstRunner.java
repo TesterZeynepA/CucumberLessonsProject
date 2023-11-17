@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
     features = "src/test/resources/features",
     glue = "stepdefinitions",
    // tags = "@firstFeature and not @cucumber",
-    tags = "@background",
+    tags = "@homework",
     dryRun = false
 )
 public class FirstRunner {
