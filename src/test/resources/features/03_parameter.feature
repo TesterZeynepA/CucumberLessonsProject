@@ -1,4 +1,4 @@
-@amazonSearch
+@amazonSearch @parallel
 Feature: Parameterized Feature
 
   Background: ortak stepler

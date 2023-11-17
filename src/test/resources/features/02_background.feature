@@ -1,4 +1,4 @@
-@background
+@background @parallel
 Feature: Using Background Keywords:
 
   Background: Ortak Stepler
