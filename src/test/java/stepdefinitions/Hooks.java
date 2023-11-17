@@ -25,8 +25,8 @@ public class Hooks {
         if(scenario.isFailed()){
             System.out.println("scenario failed");
             takeScreenshot(scenario.getName());
-            //final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
-            //scenario.attach(screenshot, "image/png", "FailedScenarioScreenshot");
+            final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", "FailedScenarioScreenshot");
             System.out.println("Screenshot taken for failed scenario: " + scenario.getName());
         }
 
@@ -36,7 +36,7 @@ public class Hooks {
         // ilk linke tiklayarak online ortamda raporunuzu goruntuleyebilirsnz
         // attach kismina tiklayarak da ekran goruntusunu gorebilirsnz
 
-        //Driver.closeDriver();
+        Driver.closeDriver();
     }
 }
 
