@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
     features = "src/test/resources/features",
     glue = "stepdefinitions",
-    tags = "@background",
+    tags = "@hooks",
     dryRun = false
 )
 public class TestRunner {
